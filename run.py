@@ -41,7 +41,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
         def open_sites():
             try:
-                driver.get('https://bobrtc.live/')   
+                driver.get('https://bobrtc.tel/')   
                 radio_passed = True             
             except NameError:
                 msg = QMessageBox()
